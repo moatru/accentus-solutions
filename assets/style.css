@@ -54,11 +54,11 @@
   h2, h3, h4, h5, h6 {
     line-height: 1;
     margin-bottom: 0.8rem;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Noto Sans HK', sans-serif;
   }
 
   h2  { font-size: 1.8rem; text-transform: uppercase; }
-  h3  { font-size: 1.6rem;  }
+  h3  { font-size: 1.6rem; text-transform: uppercase; }
   h4  { font-size: 1.2rem; text-transform: uppercase; }
   p   { font-size: 1rem;  }
 
@@ -533,7 +533,10 @@
     font-size: 1rem;
   }
    form .button {
-     width:100%;
+     width:50%;
+     background-color: black;
+     border-color: black;
+     color: white;
    }
 
    @media(max-width:768px) {
