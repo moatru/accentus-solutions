@@ -31,7 +31,7 @@
   .right    {  text-align: right;    }
   .centered {  text-align: center;   }
 
-  .padded   {  padding: 5%;    }
+  .padded   {  padding: 3% 5%;    }
   .padded-1 {  padding: 1rem;  }
   .padded-2 {  padding: 2rem;  }
   .bottom   {  margin-bottom: 1rem;}
@@ -138,10 +138,11 @@
   .button-solid,
   .button-inverted {
     text-decoration: none;
-    color: #e67e22;
+    color: black;
     border: 2px solid;
     padding: 0.6rem 2rem;
     margin-top: 1rem;
+    margin-right: 1rem;
     display: inline-block;
     text-transform: uppercase;
     font-size: 0.9rem;
@@ -163,8 +164,8 @@
   }
 
   .button-solid {
-    background-color: #e67e22;
-    border-color: #e67e22;
+    background-color: black;
+    border-color: black;
     color: white;
   }
 
