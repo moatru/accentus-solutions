@@ -44,27 +44,49 @@
     <link rel="stylesheet" href="/assets/custom.css"/>
 
     <!-- FAVICON -->
-    <link rel="shortcut icon" type="image/png" href="/images/fav3.png">
+    <link rel="shortcut icon" type="image/png" href="/images/siteicon.png">
 
 </head>
 <body>
 
   <header class="grid">
-  <div class="col-4-middle">
+  <div class="col-2-middle">
     <a href="/">
-      <h2 class="logo"> LOGO </h2>
+      <img class="" width="100%" src="/images/siteicon.png"  alt="Accentus Solutions" />
     </a>
   </div>
-  <nav class="col-8-middle right">
-    <a href="#"> Link </a>
-    <a href="#"> Link </a>
-    <a href="#"> Link </a>
-    <a href="#" class="emphasis"> Call to Action </a>
+  <nav class="col-8-middle centered">
+    <a href="services"> Services </a>
+    <a href="about"> About </a>
+    <a href="contact"> Contact </a>
+  </nav>
+
+  <nav class="col-2-middle inline socials">
+  <a href="#">
+    <i class="fas fa-envelope"></i>
+  </a>
+  <a href="#">
+    <i class="fas fa-phone"></i>
+  </a>
   </nav>
 </header>
 
 
     {{content}}
+
+    <footer class="grid">
+  <!-- column -->
+  <div class="col-12_sm-12-middle padded centered">
+    <nav class="inline socials">
+      <a href="/" target="_blank">
+        <i class="fab fa-facebook-square"></i>
+      </a>
+      <a href="/" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </nav>
+  </div>
+</footer>
 
     <!-- adds jQuery library to your site -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
