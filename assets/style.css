@@ -98,18 +98,24 @@
   }
 
   /* Icons */
-
-  .fas, .far, .fab {        /* default styles for font awesome icons */
+/* default styles for font awesome icons */
+  .fas, .far, .fab {
     font-size: 3rem;
-    /* margin-bottom: 1rem; */
     color: black;
+    transition: all 1s;
   }
+
+.fas:hover{
+  color: #e1bd54;}
 
   nav .fas, .fab {        /* default styles for font awesome icons */
     font-size: 1.8rem;
     /* margin-bottom: 1rem; */
     color: black;
   }
+
+nav .fab:hover, .fas:hover{
+    color: #e1bd54;}
 
 
   .featured-stat {     /* styles for our featured statistic icons  */
@@ -167,11 +173,13 @@
     background-color: black;
     border-color: black;
     color: white;
+    transition: all 1s;
   }
 
   .button-solid:hover {
-    background-color: rgb(60, 60, 60);
-    border-color: rgb(60, 60, 60);
+    background-color: #e1bd54;
+    border-color: #e1bd54;
+    color: black;
   }
 
   .arrow { /* this is the arrow button */
@@ -207,6 +215,8 @@
     text-decoration: none;
     color: inherit;
     text-transform: uppercase;
+    transition: all 1s;
+    font-weight: 700;
   }
 
   header nav a,
@@ -215,7 +225,8 @@
     padding: 0.5rem;
   }
   nav a:hover {
-    color: #e67e22;
+    color: #e1bd54;
+    transition: all 1sec;
   }
 
   header nav a.emphasis {
