@@ -509,6 +509,8 @@ nav .fab:hover, .fas:hover{
     width: 100%;
     font-size: 1rem;
     vertical-align: top;
+    font-family: 'Noto Sans HK', sans-serif;
+
   }
 
   input:focus,
