@@ -32,6 +32,7 @@
   .centered {  text-align: center;   }
 
   .padded   {  padding: 3% 5%;    }
+  .padded-photo   {  padding: 3% 5%;    }
   .padded-1 {  padding: 1rem;  }
   .padded-2 {  padding: 2rem;  }
   .bottom   {  margin-bottom: 1rem;}
@@ -749,6 +750,10 @@ nav .fab:hover, .fas:hover{
   .flex-flip{
     flex-direction: row;
   }
+
+    .flex-flip2:nth-child(2n){  flex-direction: column-reverse;; }
+
+  .padded-photo  {  padding: .5% .5%;    }
 
 } /* end media query */
 
