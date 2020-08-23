@@ -32,7 +32,7 @@
 /* REVIEWS SLIDER */
 /* Slideshow container */
 .slideshow-container {
-  max-width: 90%;
+  max-width: 100%;
   position: relative;
   margin: auto;
 }
@@ -46,9 +46,9 @@
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 25%;
   width: auto;
-  margin-top: -22px;
+  /* margin-top: -22px; */
   padding: 16px;
   color: white;
   font-weight: bold;
@@ -61,6 +61,11 @@
 /* Position the "next button" to the right */
 .next {
   right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
   border-radius: 3px 0 0 3px;
 }
 
