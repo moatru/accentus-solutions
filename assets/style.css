@@ -34,7 +34,7 @@
   .padded   {  padding: 3% 5%;    }
   .padded-photo   {  padding: 3% 5%;    }
   .padded-1 {  padding: 1rem;  }
-  .padded-2 {  padding: 2rem;  }
+  .padded-2 {  padding: 0rem 2rem;  }
   .bottom   {  margin-bottom: 1rem;}
   .pad-bottom   {  padding-bottom: 1rem;}
 
@@ -61,7 +61,9 @@
   h2  { font-size: 1.8rem; text-transform: uppercase; }
   h3  { font-size: 1.6rem; text-transform: uppercase; }
   h4  { font-size: 1.2rem; text-transform: uppercase; }
+  h5  { font-size: 1rem; text-transform: uppercase; font-weight: 700 }
   p   { font-size: 1rem;  }
+
 
   p, ul {
      margin-bottom: 0.8rem;
