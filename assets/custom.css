@@ -25,7 +25,7 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgba(221, 221, 221, 0.7);
+    background-color: rgba(207, 201, 203, .9);
     left:10px;
     padding:3px;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);

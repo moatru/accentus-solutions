@@ -528,7 +528,7 @@ nav .fab:hover, .fas:hover{
   input,
   textarea {
     border-style: solid;
-    border: 2px solid rgb(200, 200, 205);
+    border: 2px solid #CFC9CB;
     padding: 0.8em;
     display: block;
     width: 100%;
@@ -541,7 +541,7 @@ nav .fab:hover, .fas:hover{
   input:focus,
   textarea:focus {
     outline: none;
-    border: 2px solid #e67e22;
+    border: 2px solid #F4BD3E;
     /* featured color */
   }
 
@@ -572,7 +572,7 @@ nav .fab:hover, .fas:hover{
   }
    form .button {
      width:50%;
-     background-color: #F4BD3E;;
+     background-color: #F4BD3E;
      border-color: #F4BD3E;
      color: #050029;
      transition: all 1s;
