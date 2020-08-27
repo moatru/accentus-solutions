@@ -16,8 +16,9 @@
   }
 
   body {
-    font-family: 'Noto Sans HK', sans-serif;
-    color: black
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #050029;
   }
 
    /* this overrides the default padding and margin on gridlex elements */
@@ -43,11 +44,12 @@
   .tall-50  {  min-height: 50vh;   }
   .tall-100 {  min-height: 100vh;  }
 
-  .dark-bg      {  background-color: #dddddd;     }
+  .dark-bg      {  background-color: #030081;     }
   .light-bg     {  background-color: #fff4ea;  }
   .featured-bg  {  background-color: #ffdfc3;       }
 
-  .light-text   { color: white; }
+  .light-text   { color: #F3F3F3; }
+  .dark-text {color:#030081}
   .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
 
   /* General typography */
@@ -55,11 +57,14 @@
   h2, h3, h4, h5, h6 {
     line-height: 1;
     margin-bottom: 0.8rem;
-    font-family: 'Noto Sans HK', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #050029;
+    letter-spacing: 1px;
   }
 
-  h2  { font-size: 1.8rem; text-transform: uppercase; }
-  h3  { font-size: 1.6rem; text-transform: uppercase; }
+  h2  { font-size: 1.6rem; text-transform: uppercase; }
+  h3  { font-size: 1.4rem; text-transform: uppercase;}
   h4  { font-size: 1.2rem; text-transform: uppercase; }
   h5  { font-size: 1rem; text-transform: uppercase; font-weight: 700 }
   p   { font-size: 1rem;  }
@@ -92,7 +97,7 @@
   .no-bullets { list-style:none; } /* Used to remove dot-points from a list */
 
   .big-bold {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 700;
   }
 
@@ -104,21 +109,21 @@
 /* default styles for font awesome icons */
   .fas, .far, .fab {
     font-size: 3rem;
-    color: black;
+    color: #030081;
     transition: all 1s;
   }
 
 .fas:hover{
-  color: #e1bd54;}
+  color: #F4BD3E;}
 
   nav .fas, .fab {        /* default styles for font awesome icons */
     font-size: 1.8rem;
     /* margin-bottom: 1rem; */
-    color: black;
+    color: #030081;
   }
 
 nav .fab:hover, .fas:hover{
-    color: #e1bd54;}
+    color: #F4BD3E;}
 
 
   .featured-stat {     /* styles for our featured statistic icons  */
@@ -145,9 +150,9 @@ nav .fab:hover, .fas:hover{
 
   .button,
   .button-solid,
-  .button-inverted {
+  .button-inverted, .button-darkbg {
     text-decoration: none;
-    color: black;
+    color: #F4BD3E;
     border: 2px solid;
     padding: 0.6rem 2rem;
     margin-top: 1rem;
@@ -159,12 +164,12 @@ nav .fab:hover, .fas:hover{
   }
 
   .button:hover {
-    color: rgb(60, 60, 60);
+    color: #CFC9CB;
   }
 
   .button.inverted {   /* this is for a button on a dark background */
-    border: 2px solid white;
-    color: white;
+    border: 2px solid #F3F3F3;
+    color: #F3F3F3;
   }
 
   .button.inverted:hover {
@@ -173,16 +178,32 @@ nav .fab:hover, .fas:hover{
   }
 
   .button-solid {
-    background-color: black;
-    border-color: black;
-    color: white;
+    background-color: #030081;
+    border-color: #030081;
+    color: #F3F3F3;
     transition: all 1s;
   }
 
+  .button-darkbg{
+    border-color: #CFC9CB;
+    color: #050029;
+    transition: all 1s;
+    background-color: #CFC9CB;
+    font-weight: 600;
+  }
+
+  .button-darkbg:hover{
+    background-color: #F3F3F3;
+    border-color: #F3F3F3;
+    color: #030081;
+    transition: all 1s;
+
+  }
+
   .button-solid:hover {
-    background-color: #e1bd54;
-    border-color: #e1bd54;
-    color: black;
+    background-color: #F4BD3E;
+    border-color: #F4BD3E;
+    color: #050029;
   }
 
   .arrow { /* this is the arrow button */
@@ -225,10 +246,11 @@ nav .fab:hover, .fas:hover{
   header nav a,
   .inline a {
     display: inline-block;
+    color: #050029;
     padding: 0.5rem;
   }
   nav a:hover {
-    color: #e1bd54;
+    color: #030081;
     transition: all 1sec;
   }
 
@@ -242,7 +264,7 @@ nav .fab:hover, .fas:hover{
 
   header nav a.emphasis:hover {
     background-color: #e67e22;
-    color: white;
+    color: #F3F3F3;
   }
 
   /* Dropdown Header */
@@ -550,9 +572,17 @@ nav .fab:hover, .fas:hover{
   }
    form .button {
      width:50%;
-     background-color: black;
-     border-color: black;
-     color: white;
+     background-color: #F4BD3E;;
+     border-color: #F4BD3E;
+     color: #050029;
+     transition: all 1s;
+   }
+
+   form .button:hover{
+     background-color: #CFC9CB;
+     border-color: #CFC9CB;
+     color: #030081;
+     transition: all 1s;
    }
 
    @media(max-width:768px) {
