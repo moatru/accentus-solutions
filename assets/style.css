@@ -295,9 +295,9 @@ nav .fab:hover, .fas:hover{
 
   /* Fixed Header Option */
 
-  header.fixed {
+  header.fixed-header {
     position: fixed;
-    background-color: #f9ca24;
+    background-color: white;
     top:0;
     left:0;
     right:0;
@@ -307,7 +307,7 @@ nav .fab:hover, .fas:hover{
     text-align: center;
   }
   .bump-for-header {
-    min-height: 4rem;
+    padding-top: 14%;
   }
 
 
