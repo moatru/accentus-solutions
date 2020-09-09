@@ -6,26 +6,26 @@
 }
 
 .icons-lg {
-  color: #CFC9CB;
+  color: #F4BD3E;
 }
 
 .icons-dk{
-  color: #050029;
+  color: #30884C;
 }
 
 .icons-lg:hover{
-  color: #F3F3F3;
+  color: #FCEBC5;
 }
 
 .icons-dk:hover{
-  color: #030081;
+  color: #40B563;
 }
 
 /* DROP DOWN NAV */
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgba(207, 201, 203, 1);
+    background-color: #F3F3F3;
     left:10px;
     padding:3px;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
@@ -37,6 +37,7 @@
   text-align:left;
   font-weight: 400;
   white-space:nowrap;
+  color: #163C21;
 }
 
 .dropdown-nav {
@@ -44,6 +45,10 @@
 }
 .dropdown-nav:hover .dropdown-content {
     display: block;
+}
+
+.dropdown-content a:hover{
+  color: #30884C;
 }
 
 /* REVIEWS SLIDER */
@@ -147,7 +152,7 @@
 
 /* Fixed Banner Overlay */
 .layer {
-  background-color: rgba(16, 66, 72, 0.8);
+  background-color: rgba(64, 181, 99, 0.8);
   position: relative;
   top: 0;
   left: 0;
