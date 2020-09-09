@@ -73,7 +73,7 @@
   top: 25%;
   width: auto;
   /* margin-top: -22px; */
-  padding: 16px;
+  padding: 12px;
   color: #F3F3F3;
   font-weight: bold;
   font-size: 18px;
@@ -95,7 +95,7 @@
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(48, 136, 76, 0.8);
 }
 
 /* Caption text */
