@@ -39,6 +39,7 @@
   .bottom   {  margin-bottom: 1rem;}
   .pad-bottom   {  padding-bottom: 1rem;}
   .padded-sides { padding: 0 .5rem}
+  .padded-top {padding: 3% 0 0 0}
 
   .capped-width { width: 80%; margin: auto;}
 
@@ -298,7 +299,7 @@ nav .fab:hover, .fas:hover{
 
   header.fixed-header {
     position: fixed;
-    background-color: #104248;
+    background-color: rgba(16, 66, 72, 1);
     top:0;
     left:0;
     right:0;
@@ -308,7 +309,7 @@ nav .fab:hover, .fas:hover{
     text-align: center;
   }
   .bump-for-header {
-    padding-top: 12%;
+    padding-top: 9%;
   }
 
 
@@ -378,7 +379,7 @@ nav .fab:hover, .fas:hover{
 
   .fixed {
     background-image: url('../images/indybanner.jpg');
-    background-position: center;
+    background-position: top;
     background-attachment: fixed;
     min-height: 30vh;
     background-size: cover;
