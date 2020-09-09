@@ -18,7 +18,7 @@
   body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
-    color: #050029;
+    color: black;
   }
 
    /* this overrides the default padding and margin on gridlex elements */
@@ -38,18 +38,19 @@
   .padded-2 {  padding: 0rem 2rem;  }
   .bottom   {  margin-bottom: 1rem;}
   .pad-bottom   {  padding-bottom: 1rem;}
+  .padded-sides { padding: 0 .5rem}
 
   .capped-width { width: 80%; margin: auto;}
 
   .tall-50  {  min-height: 50vh;   }
   .tall-100 {  min-height: 100vh;  }
 
-  .dark-bg      {  background-color: #030081;     }
-  .light-bg     {  background-color: #fff4ea;  }
-  .featured-bg  {  background-color: #ffdfc3;       }
+  .dark-bg      {  background-color: #1b8366;     }
+  .light-bg     {  background-color: #cfc9cb;  }
+  .featured-bg  {  background-color: #F4BD3E;       }
 
   .light-text   { color: #F3F3F3; }
-  .dark-text {color:#030081}
+  .dark-text {color: #104248}
   .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
 
   /* General typography */
@@ -59,7 +60,7 @@
     margin-bottom: 0.8rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    color: #050029;
+    color: #104248;
     letter-spacing: 1px;
   }
 
@@ -109,7 +110,7 @@
 /* default styles for font awesome icons */
   .fas, .far, .fab {
     font-size: 3rem;
-    color: #030081;
+    color: #1b8366;
     transition: all 1s;
   }
 
@@ -119,7 +120,7 @@
   nav .fas, .fab {        /* default styles for font awesome icons */
     font-size: 1.8rem;
     /* margin-bottom: 1rem; */
-    color: #030081;
+    color: #1b8366;
   }
 
 nav .fab:hover, .fas:hover{
@@ -128,7 +129,7 @@ nav .fab:hover, .fas:hover{
 
   .featured-stat {     /* styles for our featured statistic icons  */
     font-size: 3rem;
-    color: #e67e22;
+    color: #1b8366;
     margin-bottom: 1rem;
     display: block;
   }
@@ -152,7 +153,7 @@ nav .fab:hover, .fas:hover{
   .button-solid,
   .button-inverted, .button-darkbg {
     text-decoration: none;
-    color: #F4BD3E;
+    color: #1b8366;
     border: 2px solid;
     padding: 0.6rem 2rem;
     margin-top: 1rem;
@@ -164,38 +165,38 @@ nav .fab:hover, .fas:hover{
   }
 
   .button:hover {
-    color: #CFC9CB;
+    color: #F4BD3E;
   }
 
   .button.inverted {   /* this is for a button on a dark background */
-    border: 2px solid #F3F3F3;
-    color: #F3F3F3;
+    border: 2px solid #1b8366;
+    color: #1b8366;
   }
 
   .button.inverted:hover {
-    color: #e67e22;
-    border-color: #e67e22;
+    color: #F4BD3E;
+    border-color: #F4BD3E;
   }
 
   .button-solid {
-    background-color: #030081;
-    border-color: #030081;
+    background-color: #1b8366;
+    border-color: #1b8366;
     color: #F3F3F3;
     transition: all 1s;
   }
 
   .button-darkbg{
-    border-color: #CFC9CB;
-    color: #050029;
+    border-color: #F4BD3E;
+    color: #104248;
     transition: all 1s;
-    background-color: #CFC9CB;
+    background-color: #F4BD3E;
     font-weight: 600;
   }
 
   .button-darkbg:hover{
     background-color: #F3F3F3;
     border-color: #F3F3F3;
-    color: #030081;
+    color: #1b8366;
     transition: all 1s;
 
   }
@@ -203,7 +204,7 @@ nav .fab:hover, .fas:hover{
   .button-solid:hover {
     background-color: #F4BD3E;
     border-color: #F4BD3E;
-    color: #050029;
+    color: #104248;
   }
 
   .arrow { /* this is the arrow button */
@@ -213,11 +214,11 @@ nav .fab:hover, .fas:hover{
     font-weight: 300;
     line-height: 1.5rem;
     min-width: 2.5rem;
-    border: 1px solid #e67e22;
+    border: 1px solid #F4BD3E;
     padding: 0.5rem;
     border-radius: 100%;
     text-decoration: none;
-    color: #e67e22;
+    color: #F4BD3E;
     margin-top: 0.5rem;
   }
 
@@ -246,11 +247,11 @@ nav .fab:hover, .fas:hover{
   header nav a,
   .inline a {
     display: inline-block;
-    color: #050029;
+    color: #F3F3F3;
     padding: 0.5rem;
   }
   nav a:hover {
-    color: #030081;
+    color: #F4BD3E;
     transition: all 1sec;
   }
 
@@ -297,7 +298,7 @@ nav .fab:hover, .fas:hover{
 
   header.fixed-header {
     position: fixed;
-    background-color: white;
+    background-color: #104248;
     top:0;
     left:0;
     right:0;
@@ -307,7 +308,7 @@ nav .fab:hover, .fas:hover{
     text-align: center;
   }
   .bump-for-header {
-    padding-top: 14%;
+    padding-top: 12%;
   }
 
 

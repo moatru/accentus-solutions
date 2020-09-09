@@ -144,3 +144,13 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+
+/* Fixed Banner Overlay */
+.layer {
+  background-color: rgba(16, 66, 72, 0.7);
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* height: 18rem; */
+}
