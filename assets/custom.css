@@ -5,22 +5,22 @@
   margin-right: auto;
 }
 
+/* ICONS */
 .icons-lg {
   color: #F4BD3E;
-}
-
-.icons-dk{
-  color: #30884C;
 }
 
 .icons-lg:hover{
   color: #FCEBC5;
 }
 
+.icons-dk{
+  color: #30884C;
+}
+
 .icons-dk:hover{
   color: #40B563;
 }
-
 
 
 /* DROP DOWN NAV */
