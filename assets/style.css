@@ -309,7 +309,7 @@ nav .fab:hover, .fas:hover{
     text-align: center;
   }
   .bump-for-header {
-    padding-top: 9%;
+    padding-top: 8.7%;
   }
 
 
@@ -370,7 +370,7 @@ nav .fab:hover, .fas:hover{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 55vh;
+    min-height: 58vh;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
