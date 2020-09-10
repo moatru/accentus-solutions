@@ -31,6 +31,7 @@
   .left     {  text-align: left;     }
   .right    {  text-align: right;    }
   .centered {  text-align: center;   }
+  .justify { text-align: justify;}
 
   .padded   {  padding: 3% 5%;    }
   .padded-1 {  padding: 1rem;  }
@@ -94,7 +95,7 @@
 
   /* ------- unique typography styles - adjust to suit your styles  --------- */
 
-  .not-bold   { font-weight: normal; } /* add this class to make headings not bold */
+  .not-bold   { font-weight: normal; text-transform: none;} /* add this class to make headings not bold */
   .no-bullets { list-style:none; } /* Used to remove dot-points from a list */
 
   .big-bold {
@@ -106,6 +107,14 @@
     font-size: 1.2rem;
   }
 
+  a {
+    text-decoration: none;
+    color: #163C21;
+  }
+
+  a.light-text {
+  color: #FCEBC5;
+}
   /* Icons */
 /* default styles for font awesome icons */
   .fas, .far, .fab {
