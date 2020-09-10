@@ -40,6 +40,8 @@
   .pad-bottom   {  padding-bottom: 1rem;}
   .padded-sides { padding: 0 .5rem}
   .padded-top {padding: 1.2rem 0 0 0}
+  .padded-TPL {padding: 3% 0% 3% 5%}
+  .padded-TPR {padding: 3% 8% 3% 0%}
 
   .capped-width { width: 80%; margin: auto;}
 
