@@ -781,12 +781,21 @@
   transform: rotateZ(45deg);
 }
 
-/* This media query kicks into action at the gridlex sm 768mbreakpoint */
+/* NAV BREAK */
 @media(max-width:782px) {
+
+  .padded-2 {
+    padding: 0rem 1rem;
+
+}
+
+/* This media query kicks into action at the gridlex sm 768 breakpoint */
+@media(max-width:768px) {
 
   .mob-hide {
     display: none;
   }
+
   .hamburger{
     display: block;
   }
@@ -811,7 +820,7 @@
     flex-direction: column-reverse;
     }
 
-  .padding-photo  {  padding: 4rem;    }
+  .padding-photo  { padding: 4rem;    }
 
   .padded-2 {
     padding: 0rem .7rem;
