@@ -832,8 +832,27 @@ h3 {
     font-size: 5rem;
   }
 
+  .banner {
+    min-height: 45vh;
+  }
 
+  .bump-for-header {
+      padding-top: 15%;
+  }
 } /* end media query */
+
+/* This media query kicks into action Desktop Nav Breaking Point */
+@media(max-width:702px){
+
+  .xs-mob-show{
+    display: inline-block;
+  }
+
+  .xs-mob-hide {
+    display: none;
+  }
+
+}
 
 
 /* This media query kicks into action at the gridlex xs breakpoint */
@@ -855,14 +874,6 @@ h3 {
     padding-top: 13%;
 }
 
-.xs-mob-show{
-  display: inline-block;
-}
-
-/* nav .fas, .fab {
-    font-size: 2rem;
-} */
-
 .mob-center {
   display: block;
   margin-left: auto;
@@ -871,14 +882,6 @@ h3 {
 
 .banner {
   min-height: 40vh;
-}
-
-.xs-mob-hide {
-  display: none;
-}
-
-.xs-mob-hide2 {
-  display: none;
 }
 
 } /* end media query */

@@ -264,7 +264,7 @@
 }
 
 /* This media query kicks into action at the gridlex xs breakpoint */
-@media(max-width:576px) {
+@media(max-width:702px) {
 
 
 .xs-mob-hide {
