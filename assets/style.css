@@ -852,16 +852,16 @@ h3 {
 }
 
 .bump-for-header {
-    padding-top: 19%;
+    padding-top: 13%;
 }
 
 .xs-mob-show{
   display: inline-block;
 }
 
-nav .fas, .fab {
-    font-size: 1.6rem;
-}
+/* nav .fas, .fab {
+    font-size: 2rem;
+} */
 
 .mob-center {
   display: block;
@@ -870,7 +870,7 @@ nav .fas, .fab {
 }
 
 .banner {
-  min-height: 45vh;
+  min-height: 40vh;
 }
 
 .xs-mob-hide {
