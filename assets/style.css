@@ -39,7 +39,7 @@
   .bottom   {  margin-bottom: 1.2rem;}
   .pad-bottom   {  padding-bottom: 1rem;}
   .padded-sides { padding: 0 .5rem}
-  .padded-top {padding: 1.2rem 0 0 0}
+  .padded-top {padding: 5% 0 0 0}
   .padded-TPL {padding: 2rem 1rem}
   .padded-TPR {padding: 3% 8% 3% 0%}
 
@@ -101,7 +101,7 @@
 
   /* ------- unique typography styles - adjust to suit your styles  --------- */
 
-  .not-bold   { font-weight: normal; text-transform: none;} /* add this class to make headings not bold */
+  .not-bold   { line-height: 2rem; font-weight: normal; text-transform: none;} /* add this class to make headings not bold */
   .no-bullets { list-style:none; } /* Used to remove dot-points from a list */
 
   .big-bold {
@@ -324,6 +324,7 @@
     text-align: center;
     min-height: 5.5rem;
   }
+
   .bump-for-header {
     padding-top: 5.5rem;
   }
@@ -834,6 +835,11 @@
     font-size: 1.6rem;
 }
 
+.not-bold {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
 h3 {
   font-size: 1.3rem;
 }
@@ -844,6 +850,7 @@ h3 {
 
   .banner {
     min-height: 45vh;
+    min-width: 90%;
   }
 
   .bump-for-header {
@@ -874,6 +881,7 @@ h3 {
 
   .not-bold {
     font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .big-bold {
