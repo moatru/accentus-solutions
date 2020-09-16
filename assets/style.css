@@ -40,7 +40,7 @@
   .pad-bottom   {  padding-bottom: 1rem;}
   .padded-sides { padding: 0 .5rem}
   .padded-top {padding: 1.2rem 0 0 0}
-  .padded-TPL {padding: 3% 0% 3% 5%}
+  .padded-TPL {padding: 2rem 1rem}
   .padded-TPR {padding: 3% 8% 3% 0%}
 
   .capped-width { width: 80%; margin: auto;}
@@ -110,7 +110,7 @@
   }
 
   p.emphasis {   /* typically added to paragraphs to make them a little bigger, could be a different font or color also */
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   a {
@@ -202,7 +202,7 @@
 
   .button-darkbg{
     border-color: #F4BD3E;
-    color: #163C21;
+    color: #41894c;
     transition: all 1s;
     background-color: #F4BD3E;
     font-weight: 600;
@@ -342,6 +342,11 @@
     font-size: 1.5rem;
     padding:2% 5%;
   }
+
+  .xs-mob-show{
+    display: none;
+  }
+
   .active {
     color: #e67e22;
   }
@@ -796,18 +801,72 @@
   .capped-width {
     width: 100%;
   }
+
   .flex-flip{
-    flex-direction: row;
+    flex-direction: column-reverse;
   }
 
-    .flex-flip2:nth-child(2n){  flex-direction: column-reverse;; }
+  .flex-flip2:nth-child(2n){
+    flex-direction: column-reverse;
+    }
 
-  .padded-photo  {  padding: .5% .5%;    }
+  .padding-photo  {  padding: 4rem;    }
+
+  .padded-2 {
+    padding: 0rem .7rem;
+}
+
+.fas {
+  font-size: 4rem;
+}
+
+.big-bold {
+    font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+.quote-icon {
+    font-size: 5rem;
+  }
+
 
 } /* end media query */
 
 
 /* This media query kicks into action at the gridlex xs breakpoint */
 @media(max-width:576px) {
+
+  .xs-mob-hide {
+    display: none;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .big-bold {
+    font-size: 1.3rem;
+}
+
+.bump-for-header {
+    padding-top: 19%;
+}
+
+.xs-mob-show{
+  display: inline-block;
+}
+
+nav .fas, .fab {
+    font-size: 1.6rem;
+}
+
+.mob-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 } /* end media query */

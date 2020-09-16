@@ -5,6 +5,93 @@
   margin-right: auto;
 }
 
+/* MOBILE NAV */
+.burger-button {
+  position:fixed;
+  top: 2vh;
+  right: 2vh;
+  z-index: 9999999999;
+  padding: 8px;
+}
+/*this is where you can chand the color of the buttons*/
+.burger-button span{
+  width: 25px;
+  border: 2px solid #F4BD3E;
+  background-color: #F4BD3E;
+  display: block;
+  border-radius: 22px;
+  transition: 2s;
+}
+.burger-button.active span{
+  border-color: #40B563;
+  background-color:#40B563;
+}
+
+.burger-top, .burger-bottom{
+  position: absolute;
+}
+
+.burger-top{
+  top: 02px;
+}
+
+.burger-bottom{
+  bottom: 02px;
+}
+/* make sure this has the same top as the burger button has padding*/
+.burger-button.active .burger-top{
+  position: absolute;
+  top: 8px;
+  transform: rotateZ(45deg);
+}
+
+.burger-button.active .burger-middle{
+  transform: rotateZ(270deg);
+  border-color: rgba(0,0,0,0);
+  background-color:rgba(0,0,0,0);
+}
+
+/* make sure this has the same bottom as the burger button has padding*/
+
+.burger-button.active .burger-bottom{
+  position: absolute;
+  bottom: 8px;
+  transform: rotateZ(-45deg);
+}
+
+
+.burger-menu {
+    display: none;
+    position: fixed;
+    top: 14%;
+    left:0;
+    right: 0;
+    background-color: #30884c;
+    padding:5px;
+    /* box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1); */
+    z-index: 99999999;
+    min-height: 50vh;
+}
+
+.burger-menu a {
+  text-decoration: none;
+  padding: 15px 11px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #F3F3F3;
+  display: block;
+  padding:15px 100px;
+  text-align:center;
+  white-space:nowrap;
+}
+
+.burger-menu li{list-style:none}
+/*
+.dropdown-nav:hover .dropdown-content {
+    display: block;
+} */
+
+
 /* ICONS */
 .icons-lg {
   color: #F4BD3E;
