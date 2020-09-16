@@ -50,13 +50,27 @@
 
 </head>
 <body>
+<!-- HEADER NAV -->
 
+<!-- LOGO -->
   <header class="grid-middle-center fixed-header  ">
-  <div class="col-2_sm-3_xs-5-center centered padded-sides">
+  <div class="col-2_sm-3_xs-5-center xs-mob-hide centered padded-sides">
     <a href="/">
       <img  width="70%" src="/images/logo.png"  alt="Accentus Solutions" />
     </a>
   </div>
+
+<!-- LOGO MOBILE NAV -->
+  <div class="col-2_sm-3_xs-5-left xs-mob-show left padded-sides">
+    <a href="/">
+      <img  width="70%" src="/images/logo.png"  alt="Accentus Solutions" />
+    </a>
+  </div>
+
+  <div class="col_xs-7 mob-show">
+  </div>
+
+<!-- DESKTOP NAV -->
   <nav class="col-8_sm-6-center xs-mob-hide centered">
     <a href="/" class="padded-2"> Home </a>
      <span class="dropdown-nav">
@@ -72,42 +86,56 @@
     <a href="contact" class="padded-2"> Contact </a>
   </nav>
 
-  <nav class="col-2_sm-3_xs-4-center padded-sides center centered">
-  <a href="mailto:info@accentussolutions.com">
-    <i class="fas fa-envelope"></i>
-  </a>
-  <a href="tel:3174742150">
-    <i class="fas fa-phone"></i>
-  </a>
-  <h5 class="light-text">Get a Quote</h5>
+  <nav class="col-2_sm-3_xs-6-center-middle xs-mob-hide padded-sides center centered">
+    <a href="mailto:info@accentussolutions.com">
+      <i class="fas fa-envelope"></i>
+    </a>
+    <a href="tel:3174742150">
+      <i class="fas fa-phone"></i>
+    </a>
+    <h5 class="light-text">Get a Quote</h5>
   </nav>
+</header>
 
-  <nav class="col-center xs-mob-show ">
-      <div class="burger-button">
-          <span class="burger-top"></span>
-          <span class="burger-middle"></span>
-          <span class="burger-bottom"></span>
-      </div>
-       <div class="burger-menu">
-        <ul>
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="services">Services</a>
-          </li>
-          <li>
-            <a href="about" class="on-page">About</a>
-          </li>
+<!-- MOBILE NAV -->
+<nav class="col-center xs-mob-show ">
+    <div class="burger-button">
+        <span class="burger-top"></span>
+        <span class="burger-middle"></span>
+        <span class="burger-bottom"></span>
+    </div>
+
+     <div class="burger-menu centered">
+      <ul>
+        <li>
+          <a href="/">Home</a>
         </li>
         <li>
-          <a href="about" class="on-page">Contact</a>
+          <a href="services">Services</a>
         </li>
-        <ul>
-      </div>
-    </nav>
+        <li>
+          <a href="about" class="on-page">About</a>
+        </li>
+      </li>
+      <li>
+        <a href="contact" class="on-page">Contact</a>
+      </li>
 
-</header>
+      <div class="center inline centered">
+        <a href="mailto:info@accentussolutions.com" class="inline">
+          <i class="fas fa-envelope"></i>
+        </a>
+
+        <a href="tel:3174742150" class="inline">
+          <i class="fas fa-phone"></i>
+        </a>
+
+        <h5 class="light-text">Get a Quote</h5>
+      </div>
+
+      <ul>
+    </div>
+  </nav>
 
 <section class="bump-for-header">
   </section>

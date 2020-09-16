@@ -780,8 +780,8 @@
   transform: rotateZ(45deg);
 }
 
-/* This media query kicks into action at the gridlex sm breakpoint */
-@media(max-width:768px) {
+/* This media query kicks into action at the gridlex sm 768mbreakpoint */
+@media(max-width:782px) {
 
   .mob-hide {
     display: none;
@@ -839,11 +839,11 @@ h3 {
 /* This media query kicks into action at the gridlex xs breakpoint */
 @media(max-width:576px) {
 
-  .xs-mob-hide {
-    display: none;
+  h3 {
+    font-size: 1.5rem;
   }
 
-  h3 {
+  .not-bold {
     font-size: 1rem;
   }
 
@@ -870,7 +870,15 @@ nav .fas, .fab {
 }
 
 .banner {
-  min-height: 35%;
+  min-height: 45vh;
+}
+
+.xs-mob-hide {
+  display: none;
+}
+
+.xs-mob-hide2 {
+  display: none;
 }
 
 } /* end media query */

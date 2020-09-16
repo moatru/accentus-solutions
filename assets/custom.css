@@ -13,6 +13,16 @@
   z-index: 9999999999;
   padding: 8px;
 }
+
+.contact-button {
+  position:fixed;
+  top: 4vh;
+  right: 4vh;
+  z-index: 9999999999;
+  padding: 8px;
+}
+
+
 /*this is where you can chand the color of the buttons*/
 .burger-button span{
   width: 25px;
@@ -63,7 +73,7 @@
 .burger-menu {
     display: none;
     position: fixed;
-    top: 14%;
+    top: 0;
     left:0;
     right: 0;
     background-color: #30884c;
@@ -79,13 +89,17 @@
   font-size: 1.5rem;
   font-weight: 700;
   color: #F3F3F3;
-  display: block;
-  padding:15px 100px;
+  display: inline-block;
+  padding:15px 10px;
   text-align:center;
   white-space:nowrap;
 }
 
 .burger-menu li{list-style:none}
+
+
+
+
 /*
 .dropdown-nav:hover .dropdown-content {
     display: block;
@@ -247,4 +261,14 @@
   left: 0;
   width: 100%;
   /* height: 18rem; */
+}
+
+/* This media query kicks into action at the gridlex xs breakpoint */
+@media(max-width:576px) {
+
+
+.xs-mob-hide {
+  display: none;
+}
+
 }
