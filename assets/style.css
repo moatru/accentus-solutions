@@ -869,4 +869,8 @@ nav .fas, .fab {
   margin-right: auto;
 }
 
+.banner {
+  min-height: 35%;
+}
+
 } /* end media query */
