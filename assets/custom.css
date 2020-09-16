@@ -272,3 +272,17 @@
 }
 
 }
+
+
+/* This media query kicks into action at the gridlex xs breakpoint */
+@media(max-width:576px) {
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 0px;
+  font-size: 15px;
+
+}
+}
