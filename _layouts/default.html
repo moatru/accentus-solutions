@@ -41,29 +41,30 @@
     <!-- Magnific Popup for lightbox galleries   -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
 
-    <!-- our own custom stylesheet -->
+    <!-- Stylesheets STYLE & CUSTOM-->
     <link rel="stylesheet" href="/assets/style.css"/>
     <link rel="stylesheet" href="/assets/custom.css"/>
 
-    <!-- FAVICON -->
+    <!-- FAVICON / SITE ICON-->
     <link rel="shortcut icon" type="image/png" href="/images/siteicon.png">
 
 </head>
+
 <body>
 <!-- HEADER NAV -->
 
-<!-- LOGO -->
+<!-- LOGO DESKTOP NAV-->
   <header class="grid-middle-center fixed-header  ">
   <div class="col-2_sm-3_xs-5-center xs-mob-hide centered padded-sides">
-    <a href="/">
-      <img  width="70%" src="/images/logo.png"  alt="Accentus Solutions" />
+    <a href="/" class="editable">
+      <img  class="editable" width="70%" src="/images/logo.png"  alt="Accentus Solutions Logo" />
     </a>
   </div>
 
 <!-- LOGO MOBILE NAV -->
   <div class="col_sm-4_xs-4-left xs-mob-show left padded-sides">
-    <a href="/">
-      <img  width="70%" src="/images/logo.png"  alt="Accentus Solutions" />
+    <a href="/" class="editable">
+      <img  class="editable" width="70%" src="/images/logo.png"  alt="Accentus Solutions Logo" />
     </a>
   </div>
 
@@ -72,25 +73,25 @@
 
 <!-- DESKTOP NAV -->
   <nav class="col-8_sm-6-center xs-mob-hide centered">
-    <a href="/" class="padded-2"> Home </a>
+    <a href="/" class="editable padded-2"> Home </a>
      <span class="dropdown-nav">
-    <a href="services" class="padded-2"> Services </a>
+    <a href="services" class="editable padded-2"> Services </a>
     <div class="dropdown-content">
-          <a href="services#medical">Medical</a>
-          <a href="services#commercial">Commerical</a>
-          <a href="services#floors">Floors</a>
-          <a href="services#laundry">Laundry</a>
+          <a href="services#medical" class="editable">Medical</a>
+          <a href="services#commercial" class="editable">Commerical</a>
+          <a href="services#floors" class="editable">Floors</a>
+          <a href="services#laundry" class="editable">Laundry</a>
       </div>
     </span>
-    <a href="about" class="padded-2"> About </a>
-    <a href="contact" class="padded-2"> Contact </a>
+    <a href="about" class="padded-2" class="editable"> About </a>
+    <a href="contact" class="padded-2" class="editable"> Contact </a>
   </nav>
 
   <nav class="col-2_sm-3_xs-6-center-middle xs-mob-hide padded-sides center centered">
-    <a href="mailto:info@accentussolutions.com">
+    <a href="mailto:info@accentussolutions.com" class="editable">
       <i class="fas fa-envelope"></i>
     </a>
-    <a href="tel:3174742150">
+    <a href="tel:3174742150" class="editable">
       <i class="fas fa-phone"></i>
     </a>
     <h5 class="light-text">Get a Quote</h5>
@@ -108,29 +109,29 @@
      <div class="burger-menu centered">
       <ul>
         <li>
-          <a href="/">Home</a>
+          <a href="/" class="editable">Home</a>
         </li>
         <li>
-          <a href="services">Services</a>
+          <a href="services" class="editable">Services</a>
         </li>
         <li>
-          <a href="about" class="on-page">About</a>
+          <a href="about" class="on-page editable">About</a>
         </li>
       </li>
       <li>
-        <a href="contact" class="on-page">Contact</a>
+        <a href="contact" class="on-page editable">Contact</a>
       </li>
 
       <div class="center inline centered">
-        <a href="mailto:info@accentussolutions.com" class="inline">
+        <a href="mailto:info@accentussolutions.com" class="editable inline">
           <i class="fas fa-envelope"></i>
         </a>
 
-        <a href="tel:3174742150" class="inline">
+        <a href="tel:3174742150" class="editable inline">
           <i class="fas fa-phone"></i>
         </a>
 
-        <h5 class="light-text">Get a Quote</h5>
+        <h5 class="light-text editable">Get a Quote</h5>
       </div>
 
       <ul>
@@ -142,28 +143,29 @@
 
     {{content}}
 
-    <footer class="grid padded">
-  <!-- column -->
+<footer class="grid padded">
+
+  <!-- CENTERED SOCIALS -->
   <div class="col-12_sm-12-middle  centered">
     <nav class="inline socials">
-      <a href="https://www.facebook.com/AccentusSolutionsLLC/" target="_blank">
-        <i class="fab fa-facebook-square icons-dk"></i>
+      <a href="https://www.facebook.com/AccentusSolutionsLLC/" target="_blank" class="editable">
+        <i class="fab fa-facebook-square icons-dk editable"></i>
       </a>
-      <a href="https://www.linkedin.com/in/accentus-solutions-8b579a1a8/" target="_blank">
-        <i class="fab fa-linkedin icons-dk"></i>
+      <a href="https://www.linkedin.com/in/accentus-solutions-8b579a1a8/" target="_blank" class="editable">
+        <i class="fab fa-linkedin icons-dk editable"></i>
       </a>
     </nav>
   </div>
 </footer>
 
     <!-- adds jQuery library to your site -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
 
     <!-- adds Magnific Popups javascript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
 
     <!-- this is your custom javascript/jQuery file -->
-<script src="/assets/main.js"></script>
+    <script src="/assets/main.js"></script>
 
 </body>
 </html>

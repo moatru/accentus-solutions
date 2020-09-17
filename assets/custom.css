@@ -98,14 +98,6 @@
 .burger-menu li{list-style:none}
 
 
-
-
-/*
-.dropdown-nav:hover .dropdown-content {
-    display: block;
-} */
-
-
 /* ICONS */
 .icons-lg {
   color: #F4BD3E;
@@ -124,7 +116,7 @@
 }
 
 
-/* DROP DOWN NAV */
+/* DROP DOWN NAV  */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -265,14 +257,10 @@
 
 /* This media query kicks into action at the gridlex xs breakpoint */
 @media(max-width:702px) {
-
-
 .xs-mob-hide {
   display: none;
 }
-
 }
-
 
 /* This media query kicks into action at the gridlex xs breakpoint */
 @media(max-width:576px) {
@@ -283,6 +271,5 @@
   width: auto;
   padding: 0px;
   font-size: 15px;
-
 }
 }

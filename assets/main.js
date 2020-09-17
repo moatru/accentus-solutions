@@ -50,7 +50,6 @@ $(document).ready(function() {
 	    return false;
 		});
 
-
 });
 // end accordian
 
