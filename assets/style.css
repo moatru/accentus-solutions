@@ -53,11 +53,11 @@
   .featured-bg  {  background-color: #F4BD3E;       }
 
   .light-text   { color: #F3F3F3; }
-  .dark-text    { color: #104248  }
+  .dark-text    { color: #163C21  }
   .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
 
   /* General typography */
-  
+
   h2, h3, h4, h5, h6 {
     line-height: 1;
     margin-bottom: 0.8rem;
@@ -145,7 +145,7 @@
 
   .featured-stat { /* styles for our featured statistic icons  */
     font-size: 3rem;
-    color: #1b8366;
+    color: #30884c;
     margin-bottom: 1rem;
     display: block;
   }
@@ -167,7 +167,7 @@
   .button-solid,
   .button-inverted, .button-darkbg {
     text-decoration: none;
-    color: #1b8366;
+    color: #30884c;
     border: 2px solid;
     padding: 0.6rem 2rem;
     margin-top: 1rem;
@@ -183,8 +183,8 @@
   }
 
   .button.inverted {   /* this is for a button on a dark background */
-    border: 2px solid #1b8366;
-    color: #1b8366;
+    border: 2px solid #30884c;
+    color: #30884c;
   }
 
   .button.inverted:hover {
