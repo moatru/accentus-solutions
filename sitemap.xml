@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://accentussolutions.com/</loc>
+  <lastmod>2020-09-28T18:47:51+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://accentussolutions.com/services.html</loc>
+  <lastmod>2020-09-28T18:48:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://accentussolutions.com/about.html</loc>
+  <lastmod>2020-09-28T16:05:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://accentussolutions.com/contact.html</loc>
+  <lastmod>2020-09-28T16:05:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://accentussolutions.com/pdfs/Medical.pdf</loc>
+  <lastmod>2020-09-24T18:01:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://accentussolutions.com/pdfs/Commercial.pdf</loc>
+  <lastmod>2020-09-24T18:01:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://accentussolutions.com/pdfs/Floors.pdf</loc>
+  <lastmod>2020-09-24T18:01:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://accentussolutions.com/pdfs/Laundry.pdf</loc>
+  <lastmod>2020-09-24T18:01:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://accentussolutions.com/pdfs/Our-Promise-To-You.pdf</loc>
+  <lastmod>2020-09-24T18:01:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
