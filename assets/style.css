@@ -303,7 +303,7 @@
   }
 
   .bump-for-header {
-    padding-top: 5.5rem;
+    padding-top: 7rem;
   }
 
 
@@ -569,7 +569,7 @@ h3 {
   }
 
   .bump-for-header {
-      padding-top: 4.8rem;
+      padding-top: 6rem;
   }
 } /* end media query */
 
@@ -604,7 +604,7 @@ h3 {
 }
 
 .bump-for-header {
-    padding-top: 4.2rem;
+    padding-top: 5rem;
 }
 
 .mob-center {
@@ -615,6 +615,14 @@ h3 {
 
 .banner {
   min-height: 40vh;
+}
+
+.fixed {
+  background-image: url('../images/indybanner.jpg');
+  background-position: top;
+  background-attachment: scroll;
+  min-height: 20vh;
+  background-size: cover;
 }
 
 } /* end media query */
