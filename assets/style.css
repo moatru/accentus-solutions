@@ -79,7 +79,7 @@
   }
 
   h4.homeicons {
-    font-size: 1.2rem; text-transform: uppercase;
+    font-size: .9rem; text-transform: uppercase;
   }
 
   /* this makes sure that the last element in any container doesn't have margin-bottom */
@@ -621,7 +621,7 @@ h3 {
   background-image: url('../images/indybanner.jpg');
   background-position: top;
   background-attachment: scroll;
-  min-height: 20vh;
+  min-height: 30vh;
   background-size: cover;
 }
 
